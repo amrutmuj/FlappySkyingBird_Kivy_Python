@@ -8,15 +8,16 @@ Flappy Bird is an arcade game in which the player controls the bird Faby, who is
 
 Kivy - Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps.
 
-// Basic Syntax
-from kivy.app import App
-from kivy.uix.button import Button 
+Basic Syntax
 
-class TestApp(App):
-    def build(self):
-         return Button(text='Hello World')
+    from kivy.app import App
+    from kivy.uix.button import Button 
 
-TestApp().run()
+    class TestApp(App):
+        def build(self):
+             return Button(text='Hello World')
+
+    TestApp().run()
 
 
 # Requirement
